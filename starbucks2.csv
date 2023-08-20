@@ -1,0 +1,26 @@
+id,item,calories,fat,carb,fiber,protein,type,src
+1,8-Grain Roll,350,8,67,5,10,bakery,images/8-grain-roll.png
+2,Banana Nut Loaf,490,19,75,4,7,bakery,images/banana-nut-loaf.png
+3,Blueberry Scone,460,22,61,2,7,bakery,images/blueberry-scone.png
+4,Bountiful Blueberry Muffin,370,14,55,0,6,bakery,images/bountiful-blueberry-muffin.png
+5,Butter Croissant ,310,18,32,0,5,bakery,images/butter-croissant.png
+6,Cheese Danish,420,25,39,0,7,bakery,images/cheese-danish.png
+7,Chocolate Chunk Cookie,380,17,51,2,4,bakery,images/chocolate-chunk-cookie.png
+8,Chocolate Croissant,300,17,34,2,5,bakery,images/chocolate-croissant.png
+9,Double Chocolate Brownie,410,24,46,3,6,bakery,images/double-chocolate-brownie.png
+10,Everything with Cheese Bagel,280,2,56,2,10,bakery,images/everything-with-cheese-bagel.png
+11,Iced Lemon Pound Cake,490,23,67,0,5,bakery,images/iced-lemon-pound-cake.png
+12,Marble Pound Cake,350,13,54,0,6,bakery,images/marble-pound-cake.png
+13,Marshmallow Dream Bar,210,4,43,0,0,bakery,images/marshmallow-dream-bar.png
+14,Old-Fashioned Glazed Doughnut,420,21,57,0,4,bakery,images/old-fashioned-glazed-doughnut.png
+15,Petite Vanilla Bean Scone,140,5,21,0,0,bakery,images/petite-vanilla-bean-scone.png
+16,Plain Bagel,280,1,59,2,9,bakery,images/plain-bagel.png
+17,Pumpkin Bread,390,14,61,2,6,bakery,images/pumpkin-bread.png
+18,Reduced-Fat Cinnamon Swirl Coffee Cake,340,9,62,2,4,bakery,images/coffee-cake.png
+19,Birthday Cake Pop,170,9,22,0,0,petite,images/birthday-cakepop.png
+20,Bacon & Gouda Artisan Breakfast Sandwich,350,18,30,0,17,hot breakfast,images/bacon-gouda-sandwich.png
+21,Sausage & Cheddar Classic Breakfast Sandwich,500,28,41,0,19,hot breakfast,images/sausage-breakfast-sandwich.png
+22,Spinach & Feta Breakfast Wrap,290,10,33,6,19,hot breakfast,images/spinach-feta-wrap.png
+23,Ham & Swiss Panini,360,9,43,2,28,sandwich,images/ham-swiss-panini.png
+24,Roasted Tomato & Mozzarella Panini,390,18,44,3,15,sandwich,images/tomato-mozz-panini.png
+25,Strawberry & Blueberry Yogurt Parfait,300,3.5,60,3,7,parfait,images/strawberry-blueberry-parfait.png
