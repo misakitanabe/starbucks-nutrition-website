@@ -5,18 +5,18 @@ const cors = require('cors');
 const path = require('path');
 const fs = require('fs');
 
-// // MySQL database credentials
-// const connection = mysql.createConnection({
-//   host: 'localhost',
-//   user: 'root',
-//   password: 'Embed7422!',
-//   database: 'Starbucks2',
-// });
+// MySQL database credentials
+const connection = mysql.createConnection({
+  host: 'localhost',
+  user: 'root',
+  password: 'Embed7422!',
+  database: 'Starbucks2',
+});
 
 // Get the database URL 
 // const dbUrl = process.env.JAWSDB_URL;
-const dbUrl = "mysql://jiwzfb7lgc19qepj:ztlea9s7f9umwr28@wcwimj6zu5aaddlj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/fdep9tfasyt0a27r";
-const connection = mysql.createConnection(dbUrl);
+// const dbUrl = "mysql://jiwzfb7lgc19qepj:ztlea9s7f9umwr28@wcwimj6zu5aaddlj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/fdep9tfasyt0a27r";
+// const connection = mysql.createConnection(dbUrl);
 
 connection.connect((error) => {
   if (error) {
@@ -149,4 +149,5 @@ app.get('/items/:id', (req, res) => {
 const port = process.env.PORT || 3000; // port number default 3000 for local
 app.listen(port, () => {
   console.log(`Server started on port ${port}`);
+  console.log(`url: http://127.0.0.1:3000/`);
 });
