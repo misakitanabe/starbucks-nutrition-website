@@ -1,15 +1,15 @@
 const resultElement = document.getElementById('result');
 const imageContainer = document.getElementById('imageContainer');
 const filterBarElement = document.getElementById('filter');
-// const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 // Store visibility states of items based on their ID
 const itemVisibility = {};
 
 // Function to fetch data for a specific item
 async function fetchData(itemId) {
   try {
-    const response = await fetch(`http://localhost:3000/items/${itemId}`); 
-    // const response = await fetch(`https://starbucks-nutrition-website-f66fc1fe07cd.herokuapp.com/items/${itemId}`); 
+    // const response = await fetch(`http://localhost:3000/items/${itemId}`); 
+    const response = await fetch(`https://starbucks-96pl.onrender.com/items/${itemId}`); 
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
@@ -23,8 +23,8 @@ async function fetchData(itemId) {
 
 // Function to display all items 
 async function displayAllItems() {
-  fetch(`http://localhost:3000/items`)
-  // fetch(`https://starbucks-nutrition-website-f66fc1fe07cd.herokuapp.com/items`)
+  // fetch(`http://localhost:3000/items`)
+  fetch(`https://starbucks-96pl.onrender.com/items`)
   .then(response => response.json())
   .then(data => {
     data.forEach(item => {
@@ -60,8 +60,8 @@ async function displayAllItems() {
 
 // Function to display filtered items 
 async function displayFilteredItems(type) {
-  fetch(`http://localhost:3000/items/types/${type}`)
-  // fetch(`https://starbucks-nutrition-website-f66fc1fe07cd.herokuapp.com/items/types/${type}`)
+  // fetch(`http://localhost:3000/items/types/${type}`)
+  fetch(`https://starbucks-96pl.onrender.com/items/types/${type}`)
   .then(response => response.json())
   .then(data => {
     data.forEach(item => {
